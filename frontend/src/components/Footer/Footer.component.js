@@ -5,7 +5,7 @@ import Container from "@material-ui/core/Container";
 const Footer = () => {
   return (
     <footer className="footer">
-      <Container maxWidth="md">
+      <Container>
         <p>Copyright &copy; Proshop </p>
       </Container>
     </footer>

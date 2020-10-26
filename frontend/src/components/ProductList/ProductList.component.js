@@ -9,7 +9,7 @@ const ProductList = () => {
 
   return (
     <>
-      <Container maxWidth="md">
+      <Container>
         <h1 style={{ textAlign: "center" }}>Latest Products</h1>
         <Grid container spacing={3} direction="row">
           {itemproducts.map(({ _id, ...otherProductProps }) => (
